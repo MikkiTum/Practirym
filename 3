@@ -1,0 +1,11 @@
+package org.example;
+public class MathStudent extends Student{
+    public MathStudent(String name, int year, int mark) {
+        super(name, year, mark);
+    }
+    @Override
+    public void writeExam() {
+        System.out.println("Студент ФН факультета: " + getName());
+        System.out.println("Сдает экзамен");
+    }
+}
